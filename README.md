@@ -54,9 +54,9 @@ vagrant@n1:~$ curl http://localhost:8500/v1/health/state/critical
 
 ### Additional 
 
-- [] [watches](https://www.consul.io/docs/agent/watches.html)
-- [] [event](https://www.consul.io/docs/commands/event.html)
-- [] [exec](https://www.consul.io/docs/commands/exec.html)
+- [ ] [watches](https://www.consul.io/docs/agent/watches.html)
+- [ ] [event](https://www.consul.io/docs/commands/event.html)
+- [ ] [exec](https://www.consul.io/docs/commands/exec.html)
 - [x] [KV data](https://www.consul.io/intro/getting-started/kv.html) 
 
 
