@@ -6,6 +6,13 @@
 
 - [Starting the agents](https://www.consul.io/intro/getting-started/join.html)
 
+
+`To run consul server  not on localhost with ui use this command:`
+```
+$ consul agent -server -bootstrap-expect=1 -data-dir=/tmp/consul -node=agent-one -enable-script-checks=true -config-dir=/etc/consul.d  -bind=192.168.1.10 -ui -client=192.168.1.10
+```
+
+
 ```
 vagrant@n1:~$ consul agent -server -bootstrap-expect=1 \
     -data-dir=/tmp/consul -node=agent-one -bind=172.20.20.10 \
